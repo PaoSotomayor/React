@@ -5,7 +5,7 @@ export const MovieSearchApp = () => {
     const [movies, setMovies] = useState([]);
     const [query, setQuery] = useState('');
 
-    const API_KEY = 'f92a7ba0960776743b34831738bd2b91';
+    const API_KEY = 'xxxxxxxxx';
 
     const fetchMovies = async () => {
         try {
