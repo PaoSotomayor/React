@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export const WeatherApp = () => {
     const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
-    const API_KEY = 'ab8a223dc4663045091875d66af0d381'
+    const API_KEY = 'xxxx'
     const difKelvin = 273.15
 
     const [ciudad, setCiudad] = useState('')
